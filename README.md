@@ -34,17 +34,25 @@ Screenshot:![image](https://user-images.githubusercontent.com/63430051/235315077
 ##### Task: Evaluate both models based on mAP and speed and size.
 
 Solution: mAP of Mask RCNN: ![image](https://user-images.githubusercontent.com/63430051/235315269-25e975f0-e4be-4848-a0a0-ede18671af0f.png)
+
 mAP of YoloV8n: ![image](https://user-images.githubusercontent.com/63430051/235315341-962c5f27-d28e-4cd2-a1ca-0db23fe0dfea.png)
+
 As we can see, both models have a much easier time identifying a radiator rather than a chair, while YoloV8n has a slightly better mean average precision in general than detectron2 model.
 
 speed of Mask RCNN: ![image](https://user-images.githubusercontent.com/63430051/235315626-bf50134e-7913-4eaf-a9b1-18108c7e59ee.png)
+
 ![image](https://user-images.githubusercontent.com/63430051/235315670-e8a3d5a8-2c7b-4527-8da8-61428802946c.png)
+
 Training of 500 iterations took around 9 minutes.
+
 speed of YoloV8n: ![image](https://user-images.githubusercontent.com/63430051/235315777-df8abf6c-debc-40b0-9ce1-7f1b1fd0af58.png)
+
 YoloV8n is therefore significantly slower than Mask RCNN.
 
 size of Mask RCNN: ![image](https://user-images.githubusercontent.com/63430051/235315840-47f3881a-993b-42ab-a259-59556e8f0e7e.png)
+
 size of YoloV8n: ![image](https://user-images.githubusercontent.com/63430051/235315864-47c94d8a-972d-4f60-8c51-9ba36023031f.png)
+
 YoloV8n demonstrably uses much more memory than Mask RCNN.
 
 Conclusion: while Mask RCNN with detectron2 has slightly worse mAP scores than YoloV8n, it is a significantly faster and more memory-efficient model.
