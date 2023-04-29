@@ -58,5 +58,5 @@ YoloV8n demonstrably uses much more memory than Mask RCNN.
 Conclusion: while Mask RCNN with detectron2 has slightly worse mAP scores than YoloV8n, it is a significantly faster and more memory-efficient model.
 
 6. Links to Colab:
-1. Mask RCNN: https://colab.research.google.com/drive/1xZZVwJvqGG84ay_iz9Y6hYpGJKGq6kOJ?usp=sharing
-2. YoloV8: https://colab.research.google.com/drive/1j3SVvKKa7MUx6mIMOYjyWMNLWxNHICgp?usp=sharing
+Mask RCNN: https://colab.research.google.com/drive/1xZZVwJvqGG84ay_iz9Y6hYpGJKGq6kOJ?usp=sharing
+YoloV8: https://colab.research.google.com/drive/1j3SVvKKa7MUx6mIMOYjyWMNLWxNHICgp?usp=sharing
